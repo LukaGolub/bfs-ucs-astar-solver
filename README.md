@@ -95,6 +95,4 @@ For heuristic checks, it prints an `OK`/`ERR` verdict per condition and an overa
 - **UCS** uses a min-heap keyed by cumulative path cost and guarantees an optimal-cost path.
 - **A\*** uses a min-heap keyed by `f = g + h` and tracks the best known cost per state in a closed set, re-expanding a state only if a cheaper path to it is found.
 
-## License
 
-Feel free to use, modify, and distribute this project. Consider adding an explicit license file (e.g. MIT) if you plan to share it publicly.
